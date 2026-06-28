@@ -1,83 +1,82 @@
-# Solivate Studio
+<div align="center">
 
-Solivate Studio is a premium landing page built for a Full-Stack UI/UX Design & High-Performance IT Agency. It features a modern, high-converting, interactive user interface crafted with React and Tailwind CSS.
+# 🚀 SOLIVATE STUDIO
+### *Solution to Elevate*
 
-## 🚀 Tech Stack / Teknologi yang Dipakai
+**"Inovate, Integrate, Elevate"**
 
-Proyek ini dibangun menggunakan teknologi modern untuk memastikan performa yang cepat dan pengalaman pengguna yang mulus:
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![Made in](https://img.shields.io/badge/made%20in-Indonesia-red.svg)]()
+[![Focus](https://img.shields.io/badge/focus-Digital%20Solutions-blue.svg)]()
 
-- **Frontend Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/) - Untuk rendering UI yang cepat dan *build tool* yang modern.
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) - Digunakan untuk styling *utility-first* yang efisien dan responsif.
-- **Icons**: [Lucide React](https://lucide.dev/) - Kumpulan ikon SVG yang konsisten dan ringan.
-- **Animations**: [Motion (Framer Motion)](https://motion.dev/) - Untuk menghadirkan animasi dan interaksi micro-animation yang mulus.
-- **Language**: [TypeScript](https://www.typescriptlang.org/) - Menambahkan *static typing* untuk kode yang lebih kuat dan minim *bug*.
+</div>
 
-## 📂 Struktur Project
+---
 
-Berikut adalah gambaran struktur direktori dari kode sumber (`src`) proyek ini:
+## 📖 Tentang Kami
 
-```text
-KinetcStudio/
-├── package.json          # Konfigurasi dependensi dan skrip proyek
-├── vite.config.ts        # Konfigurasi bundler Vite
-├── index.html            # File HTML utama (entry point)
-├── public/               # Aset publik statis (tidak diproses oleh bundler)
-│   └── images/
-│       ├── hero.svg
-│       ├── logosvg.svg
-│       ├── portfolio_cloud_1781799732798.jpg
-│       ├── portfolio_mobile_1781799748021.jpg
-│       └── portfolio_saas_1781799718522.jpg
-└── src/
-    ├── main.tsx          # Entry point utama aplikasi React
-    ├── App.tsx           # Komponen utama yang menyusun layout landing page
-    ├── index.css         # File CSS global (mengimpor base Tailwind)
-    ├── types.ts          # Definisi tipe (TypeScript interfaces/types) global
-    └── components/       # Komponen UI terpisah (Modular)
-        ├── Navbar.tsx          # Navigasi sticky di bagian atas
-        ├── Hero.tsx            # Bagian atas (Hero Section) landing page
-        ├── WhyChooseUs.tsx     # Alasan memilih layanan agency
-        ├── Services.tsx        # Layanan yang ditawarkan (IT & Design)
-        ├── ProcessTimeline.tsx # Timeline proses pengerjaan
-        ├── Portfolio.tsx       # Etalase karya/portofolio agency
-        ├── FAQ.tsx             # Pertanyaan yang sering diajukan
-        ├── ContactForm.tsx     # Formulir untuk menghubungi agency
-        └── Footer.tsx          # Bagian bawah (Footer) halaman
-```
+**Solivate Studio** *(Solution to Elevate)* — perpaduan antara **Solution** (solusi) dan **Elevate** (meningkatkan/menaikkan level). Bukan sekadar menyelesaikan masalah, tapi membawa user-nya **naik kelas**.
 
-## 🛠️ Getting Started (Cara Menjalankan)
+Kami adalah **digital solution provider** yang hadir untuk membawa bisnis, komunitas, dan momen berharga Anda ke level berikutnya. Di era modern ini, kehadiran digital bukan lagi sekadar pilihan — melainkan sebuah **kebutuhan**.
 
-### Prerequisites
+Kami merancang, membangun, dan mengembangkan platform digital yang **personal, interaktif, dan fungsional** untuk berbagai kebutuhan — mulai dari UMKM yang ingin berkembang, komunitas sosial, hingga selebrasi momen spesial seperti event, konser, pernikahan, dan ulang tahun.
 
-Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) di perangkat Anda.
+---
 
-### Installation
+## 🎯 Visi & Misi
 
-1. Clone repositori ini dan masuk ke folder proyek:
-   ```bash
-   cd KinetcStudio
-   ```
+### Visi
+> Membantu pelaku UMKM dan lingkungan masyarakat yang belum terdigitalisasi agar dapat **terjangkau, terintegrasi, dan bertransformasi secara digital** bersama Solivate Studio.
 
-2. Instal semua dependensi:
-   ```bash
-   npm install
-   ```
+### Misi
+- ⚡ **Mengakselerasi Digitalisasi** — Menyediakan layanan pembuatan website & platform digital yang mudah diakses oleh semua kalangan.
+- 🎯 **Memberikan Solusi Tepat Guna** — Merancang produk digital yang sesuai kebutuhan spesifik target pasar, baik bisnis maupun sosial.
+- 🤝 **Edukasi dan Pendampingan** — Membantu mitra memahami dan memanfaatkan teknologi digital secara optimal.
+- 💡 **Inovasi Berkelanjutan** — Terus berinovasi menghadirkan fitur modern yang interaktif, menarik, dan aman.
 
-3. Jalankan development server:
-   ```bash
-   npm run dev
-   ```
+---
 
-4. Buka browser Anda dan akses URL lokal yang diberikan oleh Vite (contoh: `http://localhost:3000`).
+## 🛠️ Layanan & Target Pasar
 
-## 📜 Scripts (Daftar Perintah)
+Solivate Studio hadir sebagai **one-stop digital solution** untuk:
 
-- `npm run dev`: Menjalankan server *development*.
-- `npm run build`: Melakukan proses *build* aplikasi untuk *production*.
-- `npm run preview`: Membuka *preview* lokal dari hasil *build* *production*.
-- `npm run lint`: Menjalankan TypeScript untuk mengecek tipe data.
-- `npm run clean`: Menghapus folder `dist`.
+| Segmen | Layanan |
+|---|---|
+| 🏪 **UMKM** *(Usaha Mikro, Kecil & Menengah)* | Website profil bisnis, katalog produk, sistem operasional digital |
+| 🕌 **Community & Social** | Digitalisasi komunitas, tempat ibadah, yayasan, panti asuhan — transparan & mudah diakses |
+| 🎤 **Event & Concert** | Platform info acara, registrasi online, manajemen event |
+| 💌 **Celebration & Invitation** | Undangan digital pernikahan, ulang tahun, ucapan interaktif |
 
-## 📄 License
+---
 
-This project is private and proprietary.
+## 📂 Portofolio & Rekam Jejak
+
+### ✅ Completed Projects
+- **Website Masjid** — Platform informasi, jadwal kegiatan, dan transparansi kas/infak digital.
+- **Website Ucapan Birthday** — Platform ucapan ulang tahun interaktif yang personal & berkesan.
+
+### 🔧 Upcoming Projects
+- 💈 **Website Barbershop** — Booking online & manajemen antrean.
+- 🏠 **Website Panti Asuhan** — Penyaluran donasi & publikasi kegiatan.
+- 🚗 **Website Rental Mobil** — Katalog armada & reservasi kendaraan.
+- 🌸 **Website Company Parfum** — Landing page & brand awareness eksklusif.
+
+---
+
+## ✨ Mengapa Memilih Solivate Studio?
+
+- **🧩 User-Friendly** — Desain mudah dioperasikan, bahkan oleh pengguna awam teknologi.
+- **🎨 Custom & Solutif** — Setiap proyek disesuaikan dengan karakteristik unik bisnis/acara Anda.
+- **🌍 Dampak Sosial & Bisnis** — Tidak hanya berorientasi bisnis, tapi juga peduli digitalisasi sektor sosial.
+
+---
+
+## 🤝 Mari Berkolaborasi!
+
+> Ubah ide dan bisnis Anda menjadi nyata di dunia digital bersama **Solivate Studio**.
+
+<div align="center">
+
+**Inovate. Integrate. Elevate.**
+
+</div>
